@@ -1,0 +1,67 @@
+
+	@font-face {
+		font-family: Mouse;
+		src: url('Mouse.otf');
+	}
+	body,div,ul,span {
+		margin: 0;
+		padding: 0;
+	}
+	#wrap {
+		border: 5px #365510 solid;
+		background-color:  #97C13D;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 30px;
+		position: relative;
+	}
+	#space {
+		background: url(header-bottom.png) repeat-x;
+		height: 5px;
+	}
+	#title {
+		position: relative;
+	}
+	#title .caption {
+		 position: absolute; 
+		 background: url(greedy.png) no-repeat;
+		 height: 28px;
+		 width: 258px;
+		 left: 50%;
+		 top: 50%;
+		 margin-left: -129px;
+		 margin-top: -14px;
+	}
+	#title .score,#title .time {
+		position: absolute;
+		height: 50px;
+		line-height: 50px;
+		font-family: "Mouse";
+		font-size: 30px;
+		top: 50%;
+		margin-top: -25px;
+		color: #365510;
+	}
+	#title .time {
+		right: 30px;
+	}
+	#title span {
+		left: 30px;
+	}
+	div ul{
+		overflow: hidden;
+		list-style: none;
+	}
+	div ul li {
+		width: 17px;
+		height: 17px;
+		float: left;
+		border-right: 1px #8AB333 solid;
+		border-bottom: 1px #8AB333 solid;	
+	}
+	.food {
+		background: url(food.png);
+	}
+	.snake {
+		background-color: #2E5008;
+	}
